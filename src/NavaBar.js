@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Dashboard from "./Dashboard";
 export default class NavaBar extends Component {
     render() {
         return (
@@ -107,8 +107,9 @@ export default class NavaBar extends Component {
       </div>
     </div>
     {/*/ menu  */}
-  </section></div>
-
+    <Dashboard />
+  </section>
+</div>
         )
     }
 }

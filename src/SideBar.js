@@ -8,7 +8,7 @@ export default class SideBar extends Component {
   <nav className="sidebar dark_sidebar">
     <div className="logo d-flex justify-content-between" style={{backgroundColor: '#f6f7fb', fontSize: 20, fontStyle: 'bold', fontWeight: 'bolder'}}>
       <div className="profile_info">
-        <a href="#" style={{color: '#000'}}><img src="img/engage-logo.png" alt />&nbsp;&nbsp;&nbsp;Engage Admin</a>
+        <a href="#" ><img src="img/engage-logo.png" alt />&nbsp;&nbsp;&nbsp;Engage Admin</a>
       </div>
       <div className="sidebar_close_icon d-lg-none">
         <i className="ti-close" />
